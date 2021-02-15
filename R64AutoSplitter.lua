@@ -26,7 +26,7 @@ TAtimer.Changed:Connect(function(property)
 end)
 loadremover.Changed:Connect(function(property)
   if property == "AbsoluteSize" and (not alreadydoingit) and starttimer then
-    if loadremover.AbsoluteSize.X < 100 then
+    if loadremover.AbsoluteSize.X < 135 then
       alreadydoingit = true
       lowestersr = loadremover.AbsoluteSize.X
       Input.KeyPress(0x67)
@@ -42,7 +42,7 @@ loadremover.Changed:Connect(function(property)
       until currentlersr > lowestersr
       if starttimer then  
         Input.KeyPress(0x67)
-        repeat wait() until loadremover.AbsoluteSize.X >= 100
+        repeat wait() until loadremover.AbsoluteSize.X >= 135
       end
       alreadydoingit = false
     end
@@ -77,7 +77,7 @@ player.PlayerGui.ChildRemoved:Connect(function(instance)
   end)
   loadremover.Changed:Connect(function(property)
     if property == "AbsoluteSize" and (not alreadydoingit) and starttimer then
-      if loadremover.AbsoluteSize.X < 100 then
+      if loadremover.AbsoluteSize.X < 135 then
         alreadydoingit = true
         lowestersr = loadremover.AbsoluteSize.X
         Input.KeyPress(0x67)
@@ -93,7 +93,7 @@ player.PlayerGui.ChildRemoved:Connect(function(instance)
         until currentlersr > lowestersr
         if starttimer then  
           Input.KeyPress(0x67)
-          repeat wait() until loadremover.AbsoluteSize.X >= 100
+          repeat wait() until loadremover.AbsoluteSize.X >= 135
         end
         alreadydoingit = false
       end
