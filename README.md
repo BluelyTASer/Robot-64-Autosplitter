@@ -5,5 +5,7 @@ This AutoSplitter is Designed for Protosmasher, if your exploit that you bought 
 Make Sure that Split Button Has Set to Numpad 1 and Reset Button Has Set to Numpad 3 and Pause Button Has Set to Numpad 7 and The Global Hotkeys are enabled!!!!!!
 # Features
 Medium Accuracy Load Remover (Beta)
+
 Autostarter
+
 Autoresetter
